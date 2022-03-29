@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-26" view-index="0" gantt-divider-location="626" resource-divider-location="300" version="3.1.3100" locale="zh_CN">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="名称" width="252" order="0"/>
+        <field id="tpd4" name="开始日期" width="178" order="1"/>
+        <field id="tpd5" name="结束日期" width="177" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#ff3333 #217ddd #72a8e0 #bbe1f0 #eda5a5]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名称" width="210" order="0"/>
+        <field id="1" name="默认角色" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="14" name="便利店信息管理系统" color="#217ddd" meeting="false" project="true" start="2022-03-15" duration="97" complete="9" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true">
+            <task id="16" name="软件规划" color="#72a8e0" meeting="false" start="2022-03-15" duration="7" complete="100" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true">
+                <task id="18" name="项目规划" color="#bbe1f0" meeting="false" start="2022-03-15" duration="4" complete="100" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" name="计划审评" color="#bbe1f0" meeting="false" start="2022-03-21" duration="3" complete="100" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="25" name="需求开发" color="#72a8e0" meeting="false" start="2022-03-25" duration="11" complete="16" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true">
+                <task id="30" name="用户需求初步确定" color="#bbe1f0" meeting="false" start="2022-03-25" duration="2" complete="90" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="32" name="用户界面设计" color="#bbe1f0" meeting="false" start="2022-03-29" duration="3" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="42" name="用户需求评审" color="#bbe1f0" meeting="false" start="2022-04-01" duration="1" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" name="修改需求，修改用户界面" color="#bbe1f0" meeting="false" start="2022-04-04" duration="2" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+                    <depend id="48" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="48" name="编写需求规格说明书" color="#bbe1f0" meeting="false" start="2022-04-06" duration="2" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="需求验证" color="#bbe1f0" meeting="false" start="2022-04-08" duration="1" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true"/>
+                <task id="107" name="需求确定完成" color="#ff3333" meeting="true" start="2022-04-11" duration="0" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="61" name="设计阶段" color="#72a8e0" meeting="false" start="2022-04-11" duration="25" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true">
+                <task id="62" name="概要设计" color="#bbe1f0" meeting="false" start="2022-04-11" duration="5" complete="0" thirdDate="2022-04-06" thirdDate-constraint="0" expand="true">
+                    <depend id="67" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="67" name="数据库ER图设计、建库" color="#bbe1f0" meeting="false" start="2022-04-18" duration="15" complete="0" thirdDate="2022-04-06" thirdDate-constraint="0" expand="true">
+                    <depend id="70" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="70" name="设计评审" color="#bbe1f0" meeting="false" start="2022-05-09" duration="5" complete="0" thirdDate="2022-04-06" thirdDate-constraint="0" expand="true"/>
+                <task id="109" name="规划完成" color="#ff3333" meeting="true" start="2022-05-13" duration="0" complete="0" thirdDate="2022-05-02" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="100" name="实施阶段" color="#72a8e0" meeting="false" start="2022-05-16" duration="40" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+                <task id="101" name="员工操作权限模块" color="#bbe1f0" meeting="false" start="2022-05-16" duration="15" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+                    <depend id="103" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="103" name="老板/经理操作权限" color="#bbe1f0" meeting="false" start="2022-06-06" duration="12" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+                    <depend id="105" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="105" name="管理员操作权限" color="#bbe1f0" meeting="false" start="2022-06-22" duration="13" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true"/>
+                <task id="112" name="编码完成" color="#ff3333" meeting="true" start="2022-07-11" duration="0" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="83" name="系统集成" color="#72a8e0" meeting="false" start="2022-07-11" duration="8" complete="0" thirdDate="2022-03-16" thirdDate-constraint="0" expand="true">
+                <task id="85" name="系统集成测试" color="#bbe1f0" meeting="false" start="2022-07-11" duration="5" complete="0" thirdDate="2022-03-16" thirdDate-constraint="0" expand="true">
+                    <depend id="87" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="87" name="环境测试" color="#bbe1f0" meeting="false" start="2022-07-18" duration="3" complete="0" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="91" name="交付" color="#72a8e0" meeting="false" start="2022-07-21" duration="5" complete="0" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true">
+                <task id="93" name="完成文档" color="#bbe1f0" meeting="false" start="2022-07-21" duration="3" complete="0" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="验收、交付" color="#bbe1f0" meeting="false" start="2022-07-26" duration="2" complete="0" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
